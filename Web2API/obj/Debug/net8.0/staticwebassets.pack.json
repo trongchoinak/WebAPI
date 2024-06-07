@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\LẬP TRÌNH WINDOWS\\Web2API\\Web2API\\wwwroot\\ProductImages\\0ade4b80-f278-4d2b-8fb5-b8a563efe5aa.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\0ade4b80-f278-4d2b-8fb5-b8a563efe5aa.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Web2API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Web2API.props",
+      "PackagePath": "build\\Web2API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Web2API.props",
+      "PackagePath": "buildMultiTargeting\\Web2API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Web2API.props",
+      "PackagePath": "buildTransitive\\Web2API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

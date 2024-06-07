@@ -1,0 +1,118 @@
+﻿<style>
+    #formContainer {
+        width: 52%;
+    }
+
+    #form {
+        display: none;
+    }
+
+    #mySelect {
+        width: 150px;
+        height: 30px;
+        padding-left: 10px;
+    }
+
+    #tieude {
+        width: 150px;
+        height: 30px;
+        padding-left: 10px;
+    }
+
+    #overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Màu nền với độ mờ */
+        z-index: 1000; /* Sắp xếp trên tất cả các phần tử khác */
+    }
+
+    #formContainer {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .overlayHidden {
+        display: none;
+    }
+
+    #closeButton {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #closeText {
+        display: none;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center; /* Ẩn ban đầu */
+        color: red;
+    }
+
+    #titleh2 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #post {
+        padding: 7px;
+        width: 80px;
+        border-radius: 7px;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+    }
+</style>﻿
+<div id="form" style="display:none;">
+    <div id="overlay">
+        <div id="formContainer">
+            <h2 id="titleh2">Create Phone</h2>
+            <div id="all">
+                <div class="theloai">
+                    <select id="manufacturer">
+                        <option value="Apple">Apple</option>
+                        <option value="Vivo">Vivo</option>
+                        <option value="Samsung">Samsung</option>
+                        <option value="Hawuei">Hawuei</option>
+                        <option value="Oppo">Oppo</option>
+                        <option value="Nokia">Nokia</option>
+                    </select>
+                </div>
+
+                <div>
+                    <input type="text" id="name" placeholder="NamePhone"><br>
+                </div>
+
+                <div>
+                    <input type="text" id="price" placeholder="Price"><br>
+                </div>
+                <div class="anh">
+                    <input type="file" id="uploadFile" name="uploadFile" class="custom-file-input" accept="image/*">
+                    <img id="previewImage" src="#" style="display: none; width: 464px; height: 248px;">
+                </div>
+                <div>
+                    <button id="post" type="button">Post</button>
+
+                </div>
+
+                <div>
+                    <i id="closeButton" class="fa-solid fa-xmark"></i>
+                    <span id="closeText" style="display: none;">CLOSE</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

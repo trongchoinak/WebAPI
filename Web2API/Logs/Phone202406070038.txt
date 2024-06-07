@@ -1,0 +1,43 @@
+2024-06-07 00:38:05.149 +07:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-07 00:38:06.414 +07:00 [INF] Executed DbCommand (72ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-06-07 00:38:06.476 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-06-07 00:38:06.493 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-06-07 00:38:06.983 +07:00 [INF] Now listening on: https://localhost:7069
+2024-06-07 00:38:06.985 +07:00 [INF] Now listening on: http://localhost:5144
+2024-06-07 00:38:06.989 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-07 00:38:06.991 +07:00 [INF] Hosting environment: Development
+2024-06-07 00:38:06.991 +07:00 [INF] Content root path: D:\LẬP TRÌNH WINDOWS\Web2API\Web2API
+2024-06-07 00:38:11.375 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7069/swagger/index.html - null null
+2024-06-07 00:38:11.565 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7069/swagger/index.html - 200 null text/html;charset=utf-8 195.9229ms
+2024-06-07 00:38:11.567 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7069/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-07 00:38:11.574 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7069/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 6.3052ms
+2024-06-07 00:38:11.965 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7069/_vs/browserLink - null null
+2024-06-07 00:38:12.005 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7069/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.9634ms
+2024-06-07 00:38:12.192 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7069/swagger/v1/swagger.json - null null
+2024-06-07 00:38:12.272 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate Operation for action - PhonesController.PutPhone (Web2API). See inner exception
+ ---> System.ArgumentException: An item with the same key has already been added. Key: Name
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateSchemaFromFormParameters(IEnumerable`1 formParameters, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateRequestBodyFromFormParameters(ApiDescription apiDescription, SchemaRepository schemaRepository, IEnumerable`1 formParameters)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateRequestBody(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperation(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperation(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-07 00:38:12.307 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7069/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 114.986ms

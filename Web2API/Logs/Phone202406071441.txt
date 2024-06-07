@@ -1,0 +1,22 @@
+2024-06-07 14:41:54.991 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7069/api/Phones/5009 - null null
+2024-06-07 14:41:55.000 +07:00 [INF] Executing endpoint 'PhonesController.GetPhone (Web2API)'
+2024-06-07 14:41:55.001 +07:00 [INF] Route matched with {action = "GetPhone", controller = "Phones"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Web2API.Models.Phone]] GetPhone(Int32) on controller PhonesController (Web2API).
+2024-06-07 14:41:55.012 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[ImageBase64], [p].[Manufacturer], [p].[Name], [p].[Price]
+FROM [Phones] AS [p]
+WHERE [p].[Id] = @__p_0
+2024-06-07 14:41:55.022 +07:00 [INF] Executing ObjectResult, writing value of type 'Web2API.Models.Phone'.
+2024-06-07 14:41:55.025 +07:00 [INF] Executed action PhonesController.GetPhone (Web2API) in 22.9125ms
+2024-06-07 14:41:55.031 +07:00 [INF] Executed endpoint 'PhonesController.GetPhone (Web2API)'
+2024-06-07 14:41:55.033 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7069/api/Phones/5009 - 200 null application/json; charset=utf-8 60.8557ms
+2024-06-07 14:41:55.225 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7069/api/Phones/5009 - null null
+2024-06-07 14:41:55.227 +07:00 [INF] Executing endpoint 'PhonesController.GetPhone (Web2API)'
+2024-06-07 14:41:55.228 +07:00 [INF] Route matched with {action = "GetPhone", controller = "Phones"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Web2API.Models.Phone]] GetPhone(Int32) on controller PhonesController (Web2API).
+2024-06-07 14:41:55.233 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[ImageBase64], [p].[Manufacturer], [p].[Name], [p].[Price]
+FROM [Phones] AS [p]
+WHERE [p].[Id] = @__p_0
+2024-06-07 14:41:55.246 +07:00 [INF] Executing ObjectResult, writing value of type 'Web2API.Models.Phone'.
+2024-06-07 14:41:55.251 +07:00 [INF] Executed action PhonesController.GetPhone (Web2API) in 21.397ms
+2024-06-07 14:41:55.252 +07:00 [INF] Executed endpoint 'PhonesController.GetPhone (Web2API)'
+2024-06-07 14:41:55.253 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7069/api/Phones/5009 - 200 null application/json; charset=utf-8 28.526ms

@@ -1,0 +1,51 @@
+﻿@model MVC.Models.Phone
+@{
+    ViewData["Title"] = "Edit Phone";
+}
+
+<h1>Edit Phone</h1>
+
+<form asp-action="Edit" enctype="multipart/form-data" id="editPhoneForm">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Price" class="control-label"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Manufacturer" class="control-label"></label>
+        <input asp-for="Manufacturer" class="form-control" />
+        <span asp-validation-for="Manufacturer" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="imageFile" class="control-label">Image</label>
+        <input type="file" name="imageFile" class="form-control" id="imageFile" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary" />
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        $(document).ready(function () {
+            $('#editPhoneForm').on('submit', function (e) {
+                var imageFile = $('#imageFile').val();
+                if (!imageFile) {
+                    e.preventDefault();
+                    console.log("Hãy chọn ảnh trước khi thực hiện chỉnh sửa.");
+                    alert("Hãy chọn ảnh trước khi thực hiện chỉnh sửa.");
+                }
+            });
+        });
+    </script>
+}
