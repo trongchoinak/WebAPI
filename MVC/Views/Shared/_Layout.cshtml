@@ -134,6 +134,12 @@
                                         <a  id="showForm">Create Phone</a>
                                     </li>
                                 }
+                                @if (User.Identity.IsAuthenticated && User.Identity.Name == "admin@admin.com")
+                                {
+                                    <li>
+                                        <a asp-area="" asp-controller="Admin" asp-action="UserList">Users</a>
+                                    </li>
+                                }
                             </ul>
                         </div>
                     </div>

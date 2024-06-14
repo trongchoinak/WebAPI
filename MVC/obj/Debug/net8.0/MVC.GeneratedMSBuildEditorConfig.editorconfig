@@ -9,83 +9,87 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVC
 build_property.RootNamespace = MVC
-build_property.ProjectDir = D:\LẬP TRÌNH WINDOWS\Web2API\MVC\
+build_property.ProjectDir = D:\Nhóm 4\Web2API\MVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\LẬP TRÌNH WINDOWS\Web2API\MVC
+build_property.MSBuildProjectDirectory = D:\Nhóm 4\Web2API\MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/LẬP TRÌNH WINDOWS/Web2API/MVC/Views/Account/Login.cshtml]
+[D:/Nhóm 4/Web2API/MVC/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LẬP TRÌNH WINDOWS/Web2API/MVC/Views/Account/Register.cshtml]
+[D:/Nhóm 4/Web2API/MVC/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LẬP TRÌNH WINDOWS/Web2API/MVC/Views/Home/Details.cshtml]
+[D:/Nhóm 4/Web2API/MVC/Views/Admin/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Nhóm 4/Web2API/MVC/Views/Home/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LẬP TRÌNH WINDOWS/Web2API/MVC/Views/Home/Edit.cshtml]
+[D:/Nhóm 4/Web2API/MVC/Views/Home/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LẬP TRÌNH WINDOWS/Web2API/MVC/Views/Home/Index.cshtml]
+[D:/Nhóm 4/Web2API/MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LẬP TRÌNH WINDOWS/Web2API/MVC/Views/Home/Privacy.cshtml]
+[D:/Nhóm 4/Web2API/MVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LẬP TRÌNH WINDOWS/Web2API/MVC/Views/Home/Search.cshtml]
+[D:/Nhóm 4/Web2API/MVC/Views/Home/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LẬP TRÌNH WINDOWS/Web2API/MVC/Views/Menu/baiviet.cshtml]
+[D:/Nhóm 4/Web2API/MVC/Views/Menu/baiviet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxiYWl2aWV0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LẬP TRÌNH WINDOWS/Web2API/MVC/Views/Menu/contact.cshtml]
+[D:/Nhóm 4/Web2API/MVC/Views/Menu/contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxjb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LẬP TRÌNH WINDOWS/Web2API/MVC/Views/Menu/dienthoai.cshtml]
+[D:/Nhóm 4/Web2API/MVC/Views/Menu/dienthoai.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxkaWVudGhvYWkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LẬP TRÌNH WINDOWS/Web2API/MVC/Views/Menu/mailthanhcong.cshtml]
+[D:/Nhóm 4/Web2API/MVC/Views/Menu/mailthanhcong.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxtYWlsdGhhbmhjb25nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LẬP TRÌNH WINDOWS/Web2API/MVC/Views/Menu/thongtin.cshtml]
+[D:/Nhóm 4/Web2API/MVC/Views/Menu/thongtin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVx0aG9uZ3Rpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LẬP TRÌNH WINDOWS/Web2API/MVC/Views/Shared/Error.cshtml]
+[D:/Nhóm 4/Web2API/MVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LẬP TRÌNH WINDOWS/Web2API/MVC/Views/Shared/_CreatePhonePartial.cshtml]
+[D:/Nhóm 4/Web2API/MVC/Views/Shared/_CreatePhonePartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DcmVhdGVQaG9uZVBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LẬP TRÌNH WINDOWS/Web2API/MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Nhóm 4/Web2API/MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LẬP TRÌNH WINDOWS/Web2API/MVC/Views/_ViewImports.cshtml]
+[D:/Nhóm 4/Web2API/MVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LẬP TRÌNH WINDOWS/Web2API/MVC/Views/_ViewStart.cshtml]
+[D:/Nhóm 4/Web2API/MVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/LẬP TRÌNH WINDOWS/Web2API/MVC/Views/Shared/_Layout.cshtml]
+[D:/Nhóm 4/Web2API/MVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-q0a04yuu0e

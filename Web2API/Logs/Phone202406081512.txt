@@ -1,0 +1,62 @@
+2024-06-08 15:12:00.232 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7069/api/Phones/search?query=apple - null null
+2024-06-08 15:12:00.241 +07:00 [INF] Executing endpoint 'PhonesController.SearchPhones (Web2API)'
+2024-06-08 15:12:00.244 +07:00 [INF] Route matched with {action = "SearchPhones", controller = "Phones"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Web2API.Models.Phone]]] SearchPhones(System.String) on controller PhonesController (Web2API).
+2024-06-08 15:12:00.256 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[@__query_0_contains='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[ImageBase64], [p].[Manufacturer], [p].[Name], [p].[Price]
+FROM [Phones] AS [p]
+WHERE [p].[Name] LIKE @__query_0_contains ESCAPE N'\' OR [p].[Manufacturer] LIKE @__query_0_contains ESCAPE N'\'
+2024-06-08 15:12:00.330 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Web2API.Models.Phone, Web2API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-08 15:12:00.338 +07:00 [INF] Executed action PhonesController.SearchPhones (Web2API) in 90.3051ms
+2024-06-08 15:12:00.341 +07:00 [INF] Executed endpoint 'PhonesController.SearchPhones (Web2API)'
+2024-06-08 15:12:00.344 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7069/api/Phones/search?query=apple - 200 null application/json; charset=utf-8 111.7568ms
+2024-06-08 15:12:01.213 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7069/api/Phones/5007 - null null
+2024-06-08 15:12:01.219 +07:00 [INF] Executing endpoint 'PhonesController.GetPhone (Web2API)'
+2024-06-08 15:12:01.221 +07:00 [INF] Route matched with {action = "GetPhone", controller = "Phones"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Web2API.Models.Phone]] GetPhone(Int32) on controller PhonesController (Web2API).
+2024-06-08 15:12:01.231 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[ImageBase64], [p].[Manufacturer], [p].[Name], [p].[Price]
+FROM [Phones] AS [p]
+WHERE [p].[Id] = @__p_0
+2024-06-08 15:12:01.273 +07:00 [INF] Executing ObjectResult, writing value of type 'Web2API.Models.Phone'.
+2024-06-08 15:12:01.279 +07:00 [INF] Executed action PhonesController.GetPhone (Web2API) in 54.7147ms
+2024-06-08 15:12:01.282 +07:00 [INF] Executed endpoint 'PhonesController.GetPhone (Web2API)'
+2024-06-08 15:12:01.284 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7069/api/Phones/5007 - 200 null application/json; charset=utf-8 70.2751ms
+2024-06-08 15:12:01.630 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7069/api/Phones/5007 - null null
+2024-06-08 15:12:01.637 +07:00 [INF] Executing endpoint 'PhonesController.GetPhone (Web2API)'
+2024-06-08 15:12:01.639 +07:00 [INF] Route matched with {action = "GetPhone", controller = "Phones"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Web2API.Models.Phone]] GetPhone(Int32) on controller PhonesController (Web2API).
+2024-06-08 15:12:01.651 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[ImageBase64], [p].[Manufacturer], [p].[Name], [p].[Price]
+FROM [Phones] AS [p]
+WHERE [p].[Id] = @__p_0
+2024-06-08 15:12:01.700 +07:00 [INF] Executing ObjectResult, writing value of type 'Web2API.Models.Phone'.
+2024-06-08 15:12:01.707 +07:00 [INF] Executed action PhonesController.GetPhone (Web2API) in 63.3875ms
+2024-06-08 15:12:01.710 +07:00 [INF] Executed endpoint 'PhonesController.GetPhone (Web2API)'
+2024-06-08 15:12:01.712 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7069/api/Phones/5007 - 200 null application/json; charset=utf-8 81.7258ms
+2024-06-08 15:12:02.596 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7069/api/Phones/search?query=apple - null null
+2024-06-08 15:12:02.602 +07:00 [INF] Executing endpoint 'PhonesController.SearchPhones (Web2API)'
+2024-06-08 15:12:02.604 +07:00 [INF] Route matched with {action = "SearchPhones", controller = "Phones"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Web2API.Models.Phone]]] SearchPhones(System.String) on controller PhonesController (Web2API).
+2024-06-08 15:12:02.615 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__query_0_contains='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[ImageBase64], [p].[Manufacturer], [p].[Name], [p].[Price]
+FROM [Phones] AS [p]
+WHERE [p].[Name] LIKE @__query_0_contains ESCAPE N'\' OR [p].[Manufacturer] LIKE @__query_0_contains ESCAPE N'\'
+2024-06-08 15:12:02.685 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Web2API.Models.Phone, Web2API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-08 15:12:02.695 +07:00 [INF] Executed action PhonesController.SearchPhones (Web2API) in 87.461ms
+2024-06-08 15:12:02.699 +07:00 [INF] Executed endpoint 'PhonesController.SearchPhones (Web2API)'
+2024-06-08 15:12:02.704 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7069/api/Phones/search?query=apple - 200 null application/json; charset=utf-8 108.5304ms
+2024-06-08 15:12:02.987 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7069/api/Phones/search?query=apple - null null
+2024-06-08 15:12:02.996 +07:00 [INF] Executing endpoint 'PhonesController.SearchPhones (Web2API)'
+2024-06-08 15:12:02.998 +07:00 [INF] Route matched with {action = "SearchPhones", controller = "Phones"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Web2API.Models.Phone]]] SearchPhones(System.String) on controller PhonesController (Web2API).
+2024-06-08 15:12:03.010 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__query_0_contains='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[ImageBase64], [p].[Manufacturer], [p].[Name], [p].[Price]
+FROM [Phones] AS [p]
+WHERE [p].[Name] LIKE @__query_0_contains ESCAPE N'\' OR [p].[Manufacturer] LIKE @__query_0_contains ESCAPE N'\'
+2024-06-08 15:12:03.076 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Web2API.Models.Phone, Web2API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-08 15:12:03.083 +07:00 [INF] Executed action PhonesController.SearchPhones (Web2API) in 81.0585ms
+2024-06-08 15:12:03.086 +07:00 [INF] Executed endpoint 'PhonesController.SearchPhones (Web2API)'
+2024-06-08 15:12:03.088 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7069/api/Phones/search?query=apple - 200 null application/json; charset=utf-8 100.4735ms
+2024-06-08 15:12:21.630 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7069/api/Contact/Contact - application/json; charset=utf-8 null
+2024-06-08 15:12:21.636 +07:00 [INF] Executing endpoint 'Web2API.Controllers.ContactController.Contact (Web2API)'
+2024-06-08 15:12:21.644 +07:00 [INF] Route matched with {action = "Contact", controller = "Contact"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Contact(Web2API.Models.ContactModel) on controller Web2API.Controllers.ContactController (Web2API).
+2024-06-08 15:12:26.600 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-06-08 15:12:26.607 +07:00 [INF] Executed action Web2API.Controllers.ContactController.Contact (Web2API) in 4959.6655ms
+2024-06-08 15:12:26.610 +07:00 [INF] Executed endpoint 'Web2API.Controllers.ContactController.Contact (Web2API)'
+2024-06-08 15:12:26.612 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7069/api/Contact/Contact - 200 null application/json; charset=utf-8 4981.9511ms

@@ -1,0 +1,7 @@
+2024-06-12 15:03:54.727 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7069/api/User/Logout - null 0
+2024-06-12 15:03:54.769 +07:00 [INF] Executing endpoint 'Web2API.Controllers.UserController.Logout (Web2API)'
+2024-06-12 15:03:54.771 +07:00 [INF] Route matched with {action = "Logout", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Logout() on controller Web2API.Controllers.UserController (Web2API).
+2024-06-12 15:03:54.776 +07:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-06-12 15:03:54.777 +07:00 [INF] Executed action Web2API.Controllers.UserController.Logout (Web2API) in 5.2789ms
+2024-06-12 15:03:54.778 +07:00 [INF] Executed endpoint 'Web2API.Controllers.UserController.Logout (Web2API)'
+2024-06-12 15:03:54.780 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7069/api/User/Logout - 204 null null 52.8097ms

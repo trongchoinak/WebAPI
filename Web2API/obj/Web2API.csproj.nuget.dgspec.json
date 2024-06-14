@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LẬP TRÌNH WINDOWS\\Web2API\\Web2API\\Web2API.csproj": {}
+    "D:\\Nhóm 4\\Web2API\\Web2API\\Web2API.csproj": {}
   },
   "projects": {
-    "D:\\LẬP TRÌNH WINDOWS\\Web2API\\Web2API\\Web2API.csproj": {
+    "D:\\Nhóm 4\\Web2API\\Web2API\\Web2API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LẬP TRÌNH WINDOWS\\Web2API\\Web2API\\Web2API.csproj",
+        "projectUniqueName": "D:\\Nhóm 4\\Web2API\\Web2API\\Web2API.csproj",
         "projectName": "Web2API",
-        "projectPath": "D:\\LẬP TRÌNH WINDOWS\\Web2API\\Web2API\\Web2API.csproj",
+        "projectPath": "D:\\Nhóm 4\\Web2API\\Web2API\\Web2API.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\LẬP TRÌNH WINDOWS\\Web2API\\Web2API\\obj\\",
+        "outputPath": "D:\\Nhóm 4\\Web2API\\Web2API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

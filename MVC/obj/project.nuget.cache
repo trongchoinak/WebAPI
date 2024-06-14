@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Md6veUpl/WK+ILio75lrRrjr56RAyBnDXuvdzooy0QnLCiqnmKT3KPMDjsYqe7i+vEZ8T8RI6HKmA7nuDYoB3w==",
+  "dgSpecHash": "CMBRCQki6IlAb56mKhwCpUwOlRz04ZbHT69uq1ZTmT0DZsEODL8pbneVR7pfPX+BcASXRC2+eD2JZ3ynzLtwrg==",
   "success": true,
-  "projectFilePath": "D:\\LẬP TRÌNH WINDOWS\\Web2API\\MVC\\MVC.csproj",
+  "projectFilePath": "D:\\Nhóm 4\\Web2API\\MVC\\MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
